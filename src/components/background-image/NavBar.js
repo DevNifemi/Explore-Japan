@@ -11,7 +11,7 @@ const NavBar = () => {
                     <li className='list'>Features</li>
                     <li className='list'>Destinations</li>
                     <li className='list'>Tours</li>
-                    <a className='list'>Contact</a>
+                    <li className='list'>Contact</li>
                 </ul>
             </nav>
 
