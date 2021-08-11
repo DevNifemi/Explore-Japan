@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 
 
 const App = () =>{
-  const [packageDeal, setPackageDeal] = useState([
+  const [packageDeal] = useState([
     {
       id: 1,
       imageUrl: 'https://res.cloudinary.com/nifemi/image/upload/v1626425871/pexels_rofe5u.png',
@@ -36,7 +36,7 @@ const App = () =>{
 
   const [homePageInfo, setHomePageInfo] = useState('Explore Every Beautiful Destinations In Japan.')
 
-  const [blogInfo, setBlogInfo] = useState([
+  const [blogInfo] = useState([
     {
       id: 1,
       blogImage: 'https://res.cloudinary.com/nifemi/image/upload/v1627976969/colton-jones_zx8qos.png',

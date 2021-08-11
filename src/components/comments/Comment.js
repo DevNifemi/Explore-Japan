@@ -2,8 +2,8 @@ import CardActivationBtn from '../card-components/CardActivationBtn'
 import {useState} from 'react'
 
 
-const Comment = ({}) => {
-    const [clientInfo, setClientInfo] = useState([
+const Comment = () => {
+    const [ clientInfo ] = useState([
     {
         name: 'Abiose Oluwanifemi',
         commentText: 'Zandamu ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, repudiandae exercitationem? Facilis maxime id dolore? Adipisci qui provident, eveniet sunt suscipit porro laudantium incidunt sit, reiciendis illum amet temporibus excepturi!',
