@@ -1,6 +1,6 @@
 const BannerSelection = () =>{
     return(
-        <div className='input-select d-flex'>
+        <div className='input-select'>
             <select>
                 <option>Select Location</option>
                 <option>Mount Fuji</option>
