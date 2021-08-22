@@ -974,3 +974,50 @@ footer{
     display: none;
   }
 }
+
+@media screen and (max-width: 450px){
+    /* cards styles  */
+    .card-content, .blog-content{
+      width: 100% !important;
+      height: 100%;
+    }
+    .image{
+      width: 100%;
+      height: 90%;
+    }
+    header{
+      margin: 0em;
+      margin-bottom: 40px !important;
+    }
+    header h1{
+      font-size: 2.2em;
+      width: 100%;
+    }
+    header p{
+      padding: 0 0em;
+      width: 90%;
+    }
+    .cols{
+      width: 100%;
+      padding: 0;
+    }
+    .header-content{
+      font-size: 2.6em;
+      width: 100vw;
+      line-height: 1.2em;
+    }
+    .comment-width{
+      height: 31em;
+    }
+    .overlay{
+      width: 100%;
+      bottom: 0;
+      height: 120%;
+    }
+    .line{
+      bottom: 70px;
+    }
+    .quick-links{
+      margin-top: -300px;
+    }
+}
